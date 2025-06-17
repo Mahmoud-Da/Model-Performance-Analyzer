@@ -43,6 +43,9 @@ COPY . .
 # Command to run when the container starts.
 # Replace `your_main_script.py` with your actual application entry point.
 # If you don't have a single entry point, you might want to default to bash:
-CMD ["bash"]
+# CMD ["bash"]
 # Or if you have a main script:
 # CMD ["python3", "main.py"]
+# Use a command that keeps the container running in the background
+# so we can 'exec' into it.
+CMD ["tail", "-f", "/dev/null"]

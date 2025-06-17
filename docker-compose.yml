@@ -47,8 +47,11 @@ services:
     # Choose based on whether inference.py is a one-off script or a long-running service.
     restart: "no" # Change as needed, e.g., 'on-failure' if it's a script you want to retry
 
-
     # Environment variables can be set here if needed, though Python-specific ones
     # are already in your Dockerfile.
     # environment:
     #   - MY_VARIABLE=my_value
+
+    # tensorboard default port
+    ports:
+      - "6006:6006"

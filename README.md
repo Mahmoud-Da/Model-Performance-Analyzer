@@ -44,18 +44,24 @@ pytorch_experiment_tracker/
 3.  **Run the container**
 
     ```bash
-    docker compose up
+    docker compose up -d
     ```
 
-4.  **Run the main script**
+4.  **Access the container**
+
+    ```bash
+    docker compose exec app bash
+    ```
+
+5.  **Run the main script**
 
     ```bash
     python3 main.py
     ```
 
-5.  **view the experiment**
+6.  **view the experiment**
     ```bash
-    tensorboard --logdir runs
+    tensorboard --logdir runs --bind_all
     ```
 
 ### Step 2: Configure Your Experiments
