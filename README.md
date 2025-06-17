@@ -25,6 +25,13 @@ model_performance_analyzer/
 └── README.md               # This file
 ```
 
+## Example Results
+![Screenshot 2025-06-18 at 5 19 38](https://github.com/user-attachments/assets/1a6a2f63-033e-4ae0-b52f-16450b244e4a)
+
+
+
+![Screenshot 2025-06-18 at 5 20 22](https://github.com/user-attachments/assets/f2dc3871-7e1b-4c06-a8bc-0b3b4c459dad)
+
 ## How to Use
 
 ### Step 1: Setup
