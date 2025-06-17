@@ -1,4 +1,5 @@
-# PyTorch Experiment Tracker
+# PyTorch Performance Analyzer
+
 
 A flexible and reusable tool for running and tracking multiple PyTorch experiments. This framework is designed to let you define a grid of experiments (e.g., trying different models or numbers of epochs) in a single configuration file and then automatically run, log, and save the results for each one.
 
@@ -13,7 +14,7 @@ A flexible and reusable tool for running and tracking multiple PyTorch experimen
 ## Project Structure
 
 ```
-pytorch_experiment_tracker/
+model_performance_analyzer/
 ├── main.py                 # Main executable script to run experiments
 ├── config.py               # <-- THE ONLY FILE YOU NEED TO MODIFY
 ├── engine.py               # Core training and testing logic
